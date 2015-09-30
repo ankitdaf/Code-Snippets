@@ -4,7 +4,7 @@
 # TODO: Backup my sources list as well
 
 # Backup my packages
-sudo dpkg --get_selections  | grep -v deinstall > selections.list
+sudo dpkg --get-selections  | grep -v deinstall > selections.list
 # Backup my sources list
 sudo cp /etc/apt/sources.list ./
 
@@ -15,7 +15,7 @@ sudo apt-get install dselect
 sudo dselect update
 sudo dselect install
 
-#Restore my software sources, force overwrite but make a backup
+#Restore my software sources, force overwrite but make a Backup
 #To append or to replace, that is the question
 
 sudo cp -fb ./sources.list /etc/apt/

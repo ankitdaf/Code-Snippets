@@ -57,3 +57,5 @@ deb-src http://extras.ubuntu.com/ubuntu trusty main
 deb http://apt.puredata.info/releases trusty main
 # deb-src http://apt.puredata.info/releases trusty main
 # deb-src http://apt.puredata.info/releases trusty main
+deb http://downloads.makerbot.com/makerware/ubuntu trusty main
+# deb-src http://downloads.makerbot.com/makerware/ubuntu trusty main
